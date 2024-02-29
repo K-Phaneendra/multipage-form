@@ -1,0 +1,12 @@
+.layout-footer {
+    border-top: 1px solid var(--surface-border);
+}
+.footer-content {
+    padding: 2rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: 500;
+    color: var(--text-800);
+}

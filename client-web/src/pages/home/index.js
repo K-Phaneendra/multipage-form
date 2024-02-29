@@ -1,12 +1,9 @@
 import React from "react";
-import Layout from "./layout";
 
-function App() {
+export default function Home() {
   return (
     <React.Fragment>
-      <Layout />
+      <div>Home page</div>
     </React.Fragment>
   );
 }
-
-export default App;

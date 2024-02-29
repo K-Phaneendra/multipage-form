@@ -1,12 +1,9 @@
 import React from "react";
-import Layout from "./layout";
 
-function App() {
+export default function Form() {
   return (
     <React.Fragment>
-      <Layout />
+      <div>Form page</div>
     </React.Fragment>
   );
 }
-
-export default App;
