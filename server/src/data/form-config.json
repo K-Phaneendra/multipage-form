@@ -1,0 +1,84 @@
+{
+  "form": {
+    "pages": [
+      {
+        "name": "Page 1",
+        "fields": {
+          "name": {
+            "element": "textbox",
+            "required": true,
+            "validation": {
+              "data-type": "string",
+              "limit": 250
+            }
+          },
+          "gender": {
+            "element": "select",
+            "required": true,
+            "options": ["male", "female", "non-binary"],
+            "validation": {
+              "data-type": "string",
+              "limit": 10
+            }
+          },
+          "age": {
+            "elemement": "number",
+            "required": true,
+            "validation": {
+              "data-type": "number",
+              "limit": 99
+            }
+          }
+        }
+      },
+      {
+        "name": "Page 2",
+        "fields": {
+          "profession": {
+            "element": "select",
+            "required": true,
+            "options": ["owner", "agent", "buyer", "seller", "custom-input"],
+            "option-custom-input": {
+              "element": "textbox"
+            },
+            "validation": {
+              "data-type": "string",
+              "limit": 250
+            }
+          },
+          "services-looking-for": {
+            "element": "textbox",
+            "required": true,
+            "validation": {
+              "data-type": "string",
+              "limit": 250
+            }
+          }
+        }
+      },
+      {
+        "name": "Page 3",
+        "fields": {
+          "how-did-you-find-us": {
+            "element": "select",
+            "required": false,
+            "options": [
+              "online-portal",
+              "real-estate-agency",
+              "billboard",
+              "custom-input"
+            ],
+            "option-custom-input": {
+              "element": "textbox"
+            },
+            "validation": {
+              "data-type": "string",
+              "limit": 250
+            }
+          }
+        }
+      }
+    ],
+    "timeout-in-minutes": 30
+  }
+}
