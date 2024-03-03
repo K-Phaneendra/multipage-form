@@ -3,10 +3,11 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 import logo from "../../assets/img/logo.svg";
+import React from "react";
 
 export default function Header() {
   return (
-    <>
+    <React.Fragment>
       <Navbar className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="/">
@@ -28,6 +29,6 @@ export default function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </>
+    </React.Fragment>
   );
 }

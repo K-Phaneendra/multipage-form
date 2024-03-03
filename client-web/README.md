@@ -1,3 +1,6 @@
+# .env variables
+REACT_APP_API_SERVICE = "https://DOMAIN_NAME:PORT_NUMBER/"
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
